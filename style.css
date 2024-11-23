@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray500: hsl(0, 0%, 42%);
+    --Gray950: hsl(0, 0%, 7%);
+}
+
+body{
+    background-color: var(--Yellow);
+    max-width: 144rem;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    
+}
+
+.container{
+    background-color: var(--White);
+    padding: 2rem;
+    border-radius: 2rem;
+    max-width: 40rem;
+    min-width: 30rem;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+    font-size: 1.6rem;
+    color: var(--Gray950);
+}
+
+.container .card-image img{
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container .card-head button{
+    padding: .5rem 1.5rem;
+    font-weight: 800;
+    border: 0;
+    cursor: pointer;
+    background-color: var(--Yellow);
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.container .card-head .card-pub{
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.container .card-content h1{
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    transition: .3s;
+}
+
+.container .card-content h1:hover{
+    color: var(--Yellow);
+}
+
+
+.container .card-content .card-info{
+    color: var(--Gray500);
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.container .card-icon{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container .card-icon img{
+    max-width: 4rem;
+}
+
+.container .card-icon span{
+    font-weight: 700;
+   
+}
+
+
+@media(max-width:375px){
+    body{
+        padding: 4rem 20rem;
+    }
+}

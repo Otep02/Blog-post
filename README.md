@@ -17,10 +17,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-post-challenge-dfkh7vsPXQ]
+- Live Site URL: [https://otep02.github.io/Blog-post/]
 
 ### Built with
 
